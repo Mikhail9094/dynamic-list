@@ -1,0 +1,17 @@
+export const navLinks = [
+    {img: '/img/nav/logo.svg', name: 'По проекту', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Объекты', to:'' },
+    {img: '/img/nav/logo.svg', name: 'РД', to:'' },
+    {img: '/img/nav/logo.svg', name: 'МТО', to:'' },
+    {img: '/img/nav/logo.svg', name: 'СМР', to:'' },
+    {img: '/img/nav/logo.svg', name: 'График', to:'' },
+    {img: '/img/nav/logo.svg', name: 'МиМ', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Рабочие', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Капвложения', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Бюджет', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Финансирование', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Панорамы', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Камеры', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Поручения', to:'' },
+    {img: '/img/nav/logo.svg', name: 'Контрагенты', to:'' },
+]

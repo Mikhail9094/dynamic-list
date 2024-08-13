@@ -1,0 +1,36 @@
+@import "../../../sass/variables.scss";
+
+.buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 2px 2px 2px 2px;
+  gap: 6px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  z-index: 0;
+
+  &:hover {
+    padding-right: 7px;
+    background: $background-buttons-table-hover;
+  }
+
+  .vertical-line {
+    position: absolute;
+    width: 1px;
+    border-left: 1px solid $background-table-line;
+    height: 53px;
+    left: -7px;
+    bottom: 50%;
+    box-sizing: border-box;
+  }
+
+  .horizontal-line {
+    position: absolute;
+    width: 13px;
+    border-bottom: 1px solid $background-table-line;
+    left: -7px;
+    background: $background-table-line;
+  }
+}

@@ -1,0 +1,28 @@
+.button {
+  width: fit-content;
+  display: flex;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &:disabled {
+    cursor: default;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:active {
+      transform: none;
+    }
+  }
+}

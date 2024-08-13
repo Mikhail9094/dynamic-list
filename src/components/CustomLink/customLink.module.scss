@@ -1,0 +1,12 @@
+@import "../../sass/variables.scss";
+
+.link {
+  border: none;
+  height: fit-content;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: $main-text-color;
+  font-family: $roboto;
+  font-weight: 400;
+  cursor: pointer;
+}
